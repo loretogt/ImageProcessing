@@ -30,9 +30,9 @@ Call exercise 4a:
     example: python3 exercise_4a_opening.py 2 immed_gray_inv.pgm output_opening_2.pgm   
 
 Call exercise 4b:
-    python3 exercise_4a_closing.py i exercise_04a_input_01.pgm exercise_04a_output_01.pgm 
-    example: python3 exercise_4a_closing.py 1 immed_gray_inv.pgm output_closing_1.pgm   
-    example: python3 exercise_4a_closing.py 2 immed_gray_inv.pgm output_closing_2.pgm   
+    python3 exercise_4b_closing.py i exercise_04a_input_01.pgm exercise_04a_output_01.pgm 
+    example: python3 exercise_4b_closing.py 1 immed_gray_inv.pgm output_closing_1.pgm   
+    example: python3 exercise_4b_closing.py 2 immed_gray_inv.pgm output_closing_2.pgm   
 
 Call exercise 5a example:
     python3 Exercises_04ab/exercise_4a_opening.py 1 Exercises_05ab/cam_74.pgm Exercises_05ab/exercise_05a_output_01.pgm

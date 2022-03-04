@@ -25,6 +25,7 @@ for row in range(img1.shape[0]):
 
         #if the pixel has not been treated we do the flatzone of these one 
         if imgOut [row,colum] == 0: 
+
             # The value of pixel t is output image is labeled as flat zone
             imgOut[row,colum]= flatZoneLabel
 
@@ -43,10 +44,8 @@ for row in range(img1.shape[0]):
                         # the the pixel p' belongs to x's flat zone and has not been treated
                         # the pixel p' is labeld as flat zone and inserted into the queue
                         if ((img1[rowFlatZone,columFlatZone] == img1[row,colum]) and (imgOut[rowFlatZone,columFlatZone] == 0)):
-                            
                             imgOut [rowFlatZone,columFlatZone] = flatZoneLabel
                             flatzone.append((rowFlatZone,columFlatZone))
-
             # Increment of flatZoneLabel
             flatZoneLabel +=1
 
