@@ -32,3 +32,4 @@ imgOutErosion = erosion(1, img1)
 imgOut = subtraction (img1, imgOutErosion)
 
 cv2.imwrite(sys.argv[2], imgOut)
+
